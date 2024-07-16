@@ -16,6 +16,7 @@ public class Spring2 implements SpringRunner {
 		Map<String, String> resultMap = controller.getData();
 		System.out.println("Spring2 Run()");
 		System.out.println("ResultMap : " + resultMap);
+		context.getBean(Spring2Data.class);  // DL 방식
 	}
 
 }
