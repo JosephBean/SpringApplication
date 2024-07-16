@@ -14,7 +14,8 @@ public class SpringApplication {
 //		SpringRunner spring2 = new Spring2();
 //		spring2.run();
 		
-		new AppController().run();
+		AppController appController = new AppController();
+		appController.run();
 		
 	}
 	

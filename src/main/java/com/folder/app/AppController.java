@@ -8,7 +8,8 @@ public class AppController {
 	public void run() {
 		ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 		AppTest at = ac.getBean(AppTest.class);
-		System.out.println(at.a);
+//		System.out.println(at.a);
+		at.main();
 	}
 	
 }
